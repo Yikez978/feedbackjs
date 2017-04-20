@@ -2,39 +2,16 @@
   <head>
     <title>Presentation Feedback</title>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script>
-      console.log('hello');
-      $( "input" ).click(function() {
-          //$( this ).slideUp();
-          console.log('click');
-      });
-      //$(function () {
-      //  $('button').on('click', function () {
-      //    console.log('in function');
-      //    var Status = $(this).val();
-      //    $.ajax({
-      //      url: 'Ajax/StatusUpdate.php',
-      //      data: {
-      //        text: $("textarea[name=Status]").val(),
-      //        Status: Status
-      //      },
-      //      dataType : 'json'
-      //    });
-      //  });
-      //});
-    </script>
   </head>
   <body>
     <p>How does this Presentation make you feel?</p>
     <br />
-    <button type="submit" value="1"> 🙂 </button>
-    <br />
-    <button type="submit" value="2"> ☹️ </button>
-    <br />
-    <button type="submit" value="3"> 💩 </button>
+    <button type="submit" value="1" style="width:60px;height:40px;font-size:200%;"> 🙂 </button>
+    <button type="submit" value="2" style="width:60px;height:40px;font-size:200%;"> ☹️ </button>
+    <button type="submit" value="3" style="width:60px;height:40px;font-size:200%;"> 💩 </button>
     <p>version: v1</p>
     <br />
-    <p>powered by: NodeJS</p>
+    <p>powered by: Node, Express and Kubernetes</p>
 
     <script>
       $( "button" ).click(function() {
