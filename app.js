@@ -4,9 +4,9 @@ var app = express()
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-//  app.get('/', function (req, res) {
-//      res.send('Hello World!')
-//  })
+  //app.get('/', function (req, res) {
+  //    res.send('Hello World!')
+  //})
 
 app.get('/response/:id', function (req, res) {
     var howAreYouFeeling = "confused"
