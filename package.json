@@ -13,5 +13,13 @@
   "license": "GPL-3.0",
   "dependencies": {
     "express": "^4.15.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srkiNZ84/feedbackjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/srkiNZ84/feedbackjs/issues"
+  },
+  "homepage": "https://github.com/srkiNZ84/feedbackjs#readme"
 }
